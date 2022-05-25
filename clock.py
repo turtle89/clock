@@ -81,10 +81,10 @@ def weekday(t):
 
 
 def date(z):
-    monat = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June",
+    month = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June",
              "July", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."]
     j = z.year
-    m = monat[z.month - 1]
+    m = month[z.month - 1]
     t = z.day
     return "%s %d %d" % (m, t, j)
 
